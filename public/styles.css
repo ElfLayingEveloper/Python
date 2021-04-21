@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(237, 158, 158);
+}
+.text-bar{
+    margin-top: 5%;
+    height: 70%;
+    background-color:cadetblue;
+    text-align: center;
+    border-radius: 2rem;
+    position: absolute;
+    padding-top: 0.3px;
+    left: 1%;
+    right: 1%;
+    font-size: 6px;
+    word-wrap: break-word;
+}
+#text{
+    font-size: 32px;
+    font-weight: 600;
+    font-family:cursive;
+    position: relative;
+    text-align:center;
+    transform: translate(-50%);
+    left:50%;
+}
+.input{
+background-color: yellow;
+border-radius: 1em;
+border: none;
+text-align: center;
+position: absolute;
+width: 90%;
+font-size: 32px;
+font-weight: 600;   
+font-family:cursive;
+height:20%;
+width: 50%;
+top:75%;
+left:25%
+}
+.button{
+    position:relative;
+    margin-top:45%;
+    background-color:rgba(255, 0, 119, 0.693);
+    font-size: 32px;
+    border-radius: 3em;
+    left:45%;
+}
+.buttonHome{
+    position:absolute;
+    margin-top:48%;
+    background-color:rgba(255, 0, 119, 0.693);
+    font-size: 32px;
+    border-radius: 3em;
+    left:43.5%;
+}
+#container{
+    margin-top: 5%;
+    position:absolute;
+}
+.clock{
+    position:absolute;
+    font-size:4rem;
+    font-family: sans-serif;
+    color:yellow;
+    top: -5rem;
+    left: 59rem;
+}
+.Stats-block{
+    color:Yellow;
+    font-size:2rem;
+    margin-top:-7rem;
+}
+.correct{
+    color: green;
+}
+.incorrect{
+    color: red;
+    text-decoration:underline;
+}
+.Wpm{
+    position: absolute;
+    left: 6%;
+    top: 82.5%;
+}
+.Accuracy{
+    position: absolute;
+    left: 8%;
+    top: 89.5%;
+}
+.finish{
+visibility:hidden;
+}
+.changeTextFont{
+    text-align: center;
+    font-size: larger;
+    margin-top: 17%;
+}

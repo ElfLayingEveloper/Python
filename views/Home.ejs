@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/public/styles.css">
+    <script type="text/javascript" src="/public/JScode.js" async></script>
+        <title>Home</title>
+</head>
+<body>
+    <div id="container">
+        <div class = "clock" id="timer"></div>
+    </div>
+    
+    <div class="text-bar">
+       <div id="text">
+           <%= kaka %>
+        </div>
+            <textarea class="input" id="textbox" spellcheck="false"></textarea>
+    </div>
+
+    <form id="stats-buttons-form" method="post" action="/contact" style="visibility: hidden;">
+    <input type="number" name="wpmexprss" vlaue="qs.wpm"/>
+    <input type="number" name="wpmexprss" vlaue="qs.accuracy"/>
+    <input type="number" name="wpmexprss" vlaue="qs.points"/>
+    <input type="number" name="wpmexprss" vlaue="qs.time"/>
+
+    <button class= "button" onClick="history.go(0)" VALUE="Submit"> Another One!</button>
+    <button class= "buttonHome" onClick="" VALUE=""> GOTO HomePage</button>
+    </form> 
+    <div class="Stats-block">
+        <p>WPM:</p>
+        <div class="Wpm">
+
+        </div>
+        <p>Accuracy:</p>
+        <div class="Accuracy">
+
+        </div>
+    </div>
+</body>
+</html>
